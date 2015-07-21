@@ -27,9 +27,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'faraday', '~> 0.9'
   s.add_dependency 'logging', '~> 2.0'
-  s.add_dependency 'jwt', '~> 1.4'
   s.add_dependency 'memoist', '~> 0.12'
+
   s.add_dependency 'signet', '~> 0.6'
+
   s.add_development_dependency 'bundler', '~> 1.9'
   s.add_development_dependency 'simplecov', '~> 0.9'
   s.add_development_dependency 'coveralls', '~> 0.7'
